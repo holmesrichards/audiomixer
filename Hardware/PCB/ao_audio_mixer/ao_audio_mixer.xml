@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/Audio mixer/Hardware/PCB/ao_audio_mixer/ao_audio_mixer.sch</source>
+    <date>Thu 29 Apr 2021 10:06:21 AM EDT</date>
+    <tool>Eeschema 5.1.10-88a1d61d58~88~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Audio mixer</title>
+        <company>Rich Holmes / Analog Output</company>
+        <rev/>
+        <date>2021-04-28</date>
+        <source>ao_audio_mixer.sch</source>
+        <comment number="1" value="or neighboring rights to this work. Published from United States."/>
+        <comment number="2" value="To the extent possible under law, Richard Holmes has waived all copyright and related "/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>1N5817</value>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-159</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F73FA24</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>ao_tht:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-4349</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F73FA30</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-553</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F73FA42</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Synth_power_2x5</value>
+      <footprint>ao_tht:Power_Header</footprint>
+      <fields>
+        <field name="SKU">A-2939</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Synth_power_2x5" description="2x5 pin shrouded header 2.54 mm spacing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6074DF58</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N5817</value>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-159</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6074E3B2</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>ao_tht:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-4349</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6074E7B5</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-553</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6074ED42</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C4763</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C4769</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C476F</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>2 Pin Molex Connector</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_pin_Molex_connector" description="2 pin Molex connector 2.54 mm spacing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C4775</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>2 Pin Molex Connector</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_pin_Molex_connector" description="2 pin Molex connector 2.54 mm spacing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C477B</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>2 Pin Molex Connector</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_pin_Molex_connector" description="2 pin Molex connector 2.54 mm spacing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C4781</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C4787</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C478D</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>2 Pin Molex Connector</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_pin_Molex_connector" description="2 pin Molex connector 2.54 mm spacing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C4793</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>2 Pin Molex Connector</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_pin_Molex_connector" description="2 pin Molex connector 2.54 mm spacing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C4799</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>A100k</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RA6020F_Single_Slide</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Alpha</field>
+        <field name="Part">RA6020F</field>
+        <field name="SKU">A-4496</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_SLIDE_POT" description="Slide potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C47A3</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C47D6</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C47F5</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C485B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C4863</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>2 Pin Molex Header</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_pin_Molex_header" description="2 pin Molex header 2.54 mm spacing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C489D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>2 Pin Molex Header</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_pin_Molex_header" description="2 pin Molex header 2.54 mm spacing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C48A6</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>2 Pin Molex Header</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_pin_Molex_header" description="2 pin Molex header 2.54 mm spacing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C48AC</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TL072</value>
+      <footprint>ao_tht:DIP-8_W7.62mm_Socket_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="SKU">A-037</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C48B7</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>2 Pin Molex Header</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_pin_Molex_header" description="2 pin Molex header 2.54 mm spacing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C48E8</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>2 Pin Molex Header</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_pin_Molex_header" description="2 pin Molex header 2.54 mm spacing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C48EE</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C4901</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>ao_tht:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="MountingHole" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C497C</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>ao_tht:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="MountingHole" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C4983</tstamp>
+    </comp>
+    <comp ref="GRAF1">
+      <value>AO Logo</value>
+      <footprint>ao_tht:analogoutput</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Graphic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C49BA</tstamp>
+    </comp>
+    <comp ref="GRAF2">
+      <value>CC0 Logo</value>
+      <footprint>ao_tht:CC0_logo</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Graphic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C49C1</tstamp>
+    </comp>
+    <comp ref="GRAF3">
+      <value>Panel holes</value>
+      <footprint>ao_audio_mixer:ao_audio_mixer_panel_slide_holes</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Graphic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C49C8</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>A100k</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RA6020F_Single_Slide</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Alpha</field>
+        <field name="Part">RA6020F</field>
+        <field name="SKU">A-4496</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_SLIDE_POT" description="Slide potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608D5CD3</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>A100k</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RA6020F_Single_Slide</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Alpha</field>
+        <field name="Part">RA6020F</field>
+        <field name="SKU">A-4496</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_SLIDE_POT" description="Slide potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609053DE</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C47B7</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>ao_tht:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60931372</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>ao_tht:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6093D8D7</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>ao_tht:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60943F52</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>A100k</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RA6020F_Single_Slide</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Alpha</field>
+        <field name="Part">RA6020F</field>
+        <field name="SKU">A-4496</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_SLIDE_POT" description="Slide potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C49A2</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>ao_tht:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="MountingHole" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A0FBA3</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>ao_tht:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="MountingHole" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A0FBAA</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A1F076</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack2">
+      <description>Audio Jack, 2 Poles (Mono / TS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2</field>
+      </fields>
+      <pins>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="2_pin_Molex_connector">
+      <description>2 pin Molex connector 2.54 mm spacing</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">2_pin_Molex_connector</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-826</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="2_pin_Molex_header">
+      <description>2 pin Molex header 2.54 mm spacing</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">2_pin_Molex_header</field>
+        <field name="Footprint">ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-804</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="Graphic">
+      <fields>
+        <field name="Reference">GRAF</field>
+        <field name="Value">Graphic</field>
+        <field name="Config">DNF</field>
+      </fields>
+    </libpart>
+    <libpart lib="ao_symbols" part="MountingHole">
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Config">DNF</field>
+      </fields>
+    </libpart>
+    <libpart lib="ao_symbols" part="R_SLIDE_POT">
+      <description>Slide potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_SLIDE_POT</field>
+        <field name="Footprint">ao_tht:Potentiometer_Alpha_RA6020F_Single_Slide</field>
+        <field name="Manufacturer">Alpha</field>
+        <field name="Part">RA6020F</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-4496</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="Synth_power_2x5">
+      <description>2x5 pin shrouded header 2.54 mm spacing</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Synth_power_2x5</field>
+        <field name="Footprint">ao_tht:Power_Header</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-2939</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-12V" type="power_out"/>
+        <pin num="2" name="-12V" type="passive"/>
+        <pin num="3" name="GND" type="power_out"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="+12V" type="power_out"/>
+        <pin num="10" name="+12V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="TL072">
+      <description>Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl071.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL072</field>
+        <field name="Footprint">ao_tht:DIP-8_W7.62mm_Socket_LongPads</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-037</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="ao_symbols">
+      <uri>/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/Audio mixer/Hardware/PCB/ao_audio_mixer/ao_symbols.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J1" pin="2"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J4" pin="5"/>
+      <node ref="J4" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J4" pin="7"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J4" pin="8"/>
+      <node ref="J11" pin="S"/>
+      <node ref="RV3" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="J16" pin="2"/>
+      <node ref="J15" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J10" pin="S"/>
+      <node ref="J14" pin="2"/>
+      <node ref="J13" pin="2"/>
+      <node ref="J12" pin="2"/>
+      <node ref="J9" pin="S"/>
+      <node ref="J8" pin="S"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J7" pin="S"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="2" name="/OUT2_P">
+      <node ref="J11" pin="T"/>
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="3" name="/OUT1_P">
+      <node ref="J10" pin="T"/>
+      <node ref="J15" pin="1"/>
+    </net>
+    <net code="4" name="/IN3_P">
+      <node ref="J14" pin="1"/>
+      <node ref="J9" pin="T"/>
+    </net>
+    <net code="5" name="/IN2_P">
+      <node ref="J13" pin="1"/>
+      <node ref="J8" pin="T"/>
+    </net>
+    <net code="6" name="/IN1_P">
+      <node ref="J12" pin="1"/>
+      <node ref="J7" pin="T"/>
+    </net>
+    <net code="7" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="8" name="/OUT2">
+      <node ref="R7" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="9" name="/OUT1">
+      <node ref="R6" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R4-Pad2)">
+      <node ref="RV4" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="12" name="-12V">
+      <node ref="U1" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="13" name="+12V">
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="14" name="/IN3">
+      <node ref="J3" pin="1"/>
+      <node ref="RV3" pin="3"/>
+    </net>
+    <net code="15" name="Net-(C2-Pad2)">
+      <node ref="RV2" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="16" name="/IN2">
+      <node ref="J2" pin="1"/>
+      <node ref="RV2" pin="3"/>
+    </net>
+    <net code="17" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C3-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C3-Pad2)">
+      <node ref="RV3" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="21" name="Net-(C1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(R1-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="RV4" pin="2"/>
+      <node ref="RV4" pin="3"/>
+    </net>
+    <net code="23" name="/+12_IN">
+      <node ref="J4" pin="9"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J4" pin="10"/>
+    </net>
+    <net code="24" name="/-12_IN">
+      <node ref="J4" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="25" name="/IN1">
+      <node ref="RV1" pin="3"/>
+      <node ref="J1" pin="1"/>
+    </net>
+  </nets>
+</export>
