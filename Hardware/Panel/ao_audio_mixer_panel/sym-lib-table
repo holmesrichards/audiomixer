@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name Kosmo_panel)(type Legacy)(uri ${KIPRJMOD}/../../lib/Kosmo_panel/Kosmo_panel.lib)(options "")(descr ""))
+  (lib (name Kosmo_panel)(type Legacy)(uri ${KIPRJMOD}/../../lib/Kosmo_panel/Kosmo.lib)(options "")(descr ""))
   (lib (name ao_symbols)(type Legacy)(uri ${KIPRJMOD}/../../lib/aoKicad/ao_symbols.lib)(options "")(descr ""))
+  (lib (name ao_audio_mixer_panel-rescue)(type Legacy)(uri ${KIPRJMOD}/ao_audio_mixer_panel-rescue.lib)(options "")(descr ""))
 )
