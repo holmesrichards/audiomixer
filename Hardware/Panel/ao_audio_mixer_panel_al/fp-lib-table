@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name Kosmo_panel)(type KiCad)(uri ${KIPRJMOD}/../../lib/Kosmo_panel/Kosmo_panel.pretty)(options "")(descr ""))
-  (lib (name ao_audio_mixer)(type KiCad)(uri ${KIPRJMOD}/../../PCB/ao_audio_mixer/ao_audio_mixer.pretty)(options "")(descr ""))
-  (lib (name ao_tht)(type KiCad)(uri ${KIPRJMOD}/../../lib/aoKicad/ao_tht.pretty)(options "")(descr ""))
-)
