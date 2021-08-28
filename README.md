@@ -17,7 +17,7 @@ This is an audio mixer synth module in Kosmo format. It has three inputs, each w
 
 ## GitHub repository
 
-* [https://github.com/holmesrichards/audiomixer](
+* [https://github.com/holmesrichards/audiomixer](https://github.com/holmesrichards/audiomixer)
 
 ## Submodules
 
