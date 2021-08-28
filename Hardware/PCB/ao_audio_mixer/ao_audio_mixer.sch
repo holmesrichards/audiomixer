@@ -621,32 +621,6 @@ A2 A5 EE B2 D4 1E 8B A5 0A 72 7E 53 3D C5 4E 9B EF C0 0F 7D 68 E9 0E B5 18 B4 3C
 EndData
 $EndBitmap
 $Comp
-L Connector:AudioJack2 J?
-U 1 1 608C4787
-P 3300 3950
-AR Path="/608A1AFB/608C4787" Ref="J?"  Part="1" 
-AR Path="/608C4787" Ref="J5"  Part="1" 
-F 0 "J5" H 3121 3933 50  0000 R CNN
-F 1 "AudioJack2" H 3121 4024 50  0000 R CNN
-F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 3300 3950 50  0001 C CNN
-F 3 "~" H 3300 3950 50  0001 C CNN
-	1    3300 3950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2 J?
-U 1 1 608C478D
-P 3300 4600
-AR Path="/608A1AFB/608C478D" Ref="J?"  Part="1" 
-AR Path="/608C478D" Ref="J6"  Part="1" 
-F 0 "J6" H 3121 4583 50  0000 R CNN
-F 1 "AudioJack2" H 3121 4674 50  0000 R CNN
-F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 3300 4600 50  0001 C CNN
-F 3 "~" H 3300 4600 50  0001 C CNN
-	1    3300 4600
-	-1   0    0    1   
-$EndComp
-$Comp
 L ao_symbols:R_SLIDE_POT RV?
 U 1 1 608C47A3
 P 2250 1350
@@ -936,33 +910,13 @@ F 0 "C1" V 4448 1250 50  0000 C CNN
 F 1 "1uF" V 4539 1250 50  0000 C CNN
 F 2 "ao_tht:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4738 1100 50  0001 C CNN
 F 3 "~" H 4700 1250 50  0001 C CNN
+F 4 "Tayda" V 4700 1250 50  0001 C CNN "Vendor"
+F 5 "A-4168" V 4700 1250 50  0001 C CNN "SKU"
 	1    4700 1250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 6093D8D7
-P 4700 2350
-F 0 "C2" V 4448 2350 50  0000 C CNN
-F 1 "1uF" V 4539 2350 50  0000 C CNN
-F 2 "ao_tht:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4738 2200 50  0001 C CNN
-F 3 "~" H 4700 2350 50  0001 C CNN
-	1    4700 2350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4850 2350 4950 2350
-$Comp
-L Device:C C3
-U 1 1 60943F52
-P 4700 3450
-F 0 "C3" V 4448 3450 50  0000 C CNN
-F 1 "1uF" V 4539 3450 50  0000 C CNN
-F 2 "ao_tht:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4738 3300 50  0001 C CNN
-F 3 "~" H 4700 3450 50  0001 C CNN
-	1    4700 3450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4850 3450 4950 3450
 Wire Wire Line
@@ -1340,19 +1294,6 @@ F 4 "DNF" H 2350 7500 50  0001 C CNN "Config"
 $EndComp
 $Comp
 L Connector:AudioJack2 J?
-U 1 1 608C476F
-P 1650 3300
-AR Path="/608A1AFB/608C476F" Ref="J?"  Part="1" 
-AR Path="/608C476F" Ref="J3"  Part="1" 
-F 0 "J3" H 1471 3283 50  0000 R CNN
-F 1 "AudioJack2" H 1471 3374 50  0000 R CNN
-F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 1650 3300 50  0001 C CNN
-F 3 "~" H 1650 3300 50  0001 C CNN
-	1    1650 3300
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2 J?
 U 1 1 608C4763
 P 1650 1100
 AR Path="/608A1AFB/608C4763" Ref="J?"  Part="1" 
@@ -1361,20 +1302,9 @@ F 0 "J1" H 1471 1083 50  0000 R CNN
 F 1 "AudioJack2" H 1471 1174 50  0000 R CNN
 F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 1650 1100 50  0001 C CNN
 F 3 "~" H 1650 1100 50  0001 C CNN
+F 4 "Tayda" H 1650 1100 50  0001 C CNN "Vendor"
+F 5 "A-1121" H 1650 1100 50  0001 C CNN "SKU"
 	1    1650 1100
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2 J?
-U 1 1 608C4769
-P 1650 2200
-AR Path="/608A1AFB/608C4769" Ref="J?"  Part="1" 
-AR Path="/608C4769" Ref="J2"  Part="1" 
-F 0 "J2" H 1471 2183 50  0000 R CNN
-F 1 "AudioJack2" H 1471 2274 50  0000 R CNN
-F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 1650 2200 50  0001 C CNN
-F 3 "~" H 1650 2200 50  0001 C CNN
-	1    1650 2200
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -1439,4 +1369,90 @@ Text Label 2800 3950 0    50   ~ 0
 OUT1P
 Text Label 2800 4600 0    50   ~ 0
 OUT2P
+$Comp
+L Device:C C2
+U 1 1 612A81E5
+P 4700 2350
+F 0 "C2" V 4448 2350 50  0000 C CNN
+F 1 "1uF" V 4539 2350 50  0000 C CNN
+F 2 "ao_tht:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4738 2200 50  0001 C CNN
+F 3 "~" H 4700 2350 50  0001 C CNN
+F 4 "Tayda" V 4700 2350 50  0001 C CNN "Vendor"
+F 5 "A-4168" V 4700 2350 50  0001 C CNN "SKU"
+	1    4700 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 612A86CA
+P 4700 3450
+F 0 "C3" V 4448 3450 50  0000 C CNN
+F 1 "1uF" V 4539 3450 50  0000 C CNN
+F 2 "ao_tht:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4738 3300 50  0001 C CNN
+F 3 "~" H 4700 3450 50  0001 C CNN
+F 4 "Tayda" V 4700 3450 50  0001 C CNN "Vendor"
+F 5 "A-4168" V 4700 3450 50  0001 C CNN "SKU"
+	1    4700 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 612A8D5B
+P 1650 2200
+AR Path="/608A1AFB/612A8D5B" Ref="J?"  Part="1" 
+AR Path="/612A8D5B" Ref="J2"  Part="1" 
+F 0 "J2" H 1471 2183 50  0000 R CNN
+F 1 "AudioJack2" H 1471 2274 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 1650 2200 50  0001 C CNN
+F 3 "~" H 1650 2200 50  0001 C CNN
+F 4 "Tayda" H 1650 2200 50  0001 C CNN "Vendor"
+F 5 "A-1121" H 1650 2200 50  0001 C CNN "SKU"
+	1    1650 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 612A907C
+P 1650 3300
+AR Path="/608A1AFB/612A907C" Ref="J?"  Part="1" 
+AR Path="/612A907C" Ref="J3"  Part="1" 
+F 0 "J3" H 1471 3283 50  0000 R CNN
+F 1 "AudioJack2" H 1471 3374 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 1650 3300 50  0001 C CNN
+F 3 "~" H 1650 3300 50  0001 C CNN
+F 4 "Tayda" H 1650 3300 50  0001 C CNN "Vendor"
+F 5 "A-1121" H 1650 3300 50  0001 C CNN "SKU"
+	1    1650 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 612A9536
+P 3300 3950
+AR Path="/608A1AFB/612A9536" Ref="J?"  Part="1" 
+AR Path="/612A9536" Ref="J5"  Part="1" 
+F 0 "J5" H 3121 3933 50  0000 R CNN
+F 1 "AudioJack2" H 3121 4024 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 3300 3950 50  0001 C CNN
+F 3 "~" H 3300 3950 50  0001 C CNN
+F 4 "Tayda" H 3300 3950 50  0001 C CNN "Vendor"
+F 5 "A-1121" H 3300 3950 50  0001 C CNN "SKU"
+	1    3300 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 612A9AD4
+P 3300 4600
+AR Path="/608A1AFB/612A9AD4" Ref="J?"  Part="1" 
+AR Path="/612A9AD4" Ref="J6"  Part="1" 
+F 0 "J6" H 3121 4583 50  0000 R CNN
+F 1 "AudioJack2" H 3121 4674 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 3300 4600 50  0001 C CNN
+F 3 "~" H 3300 4600 50  0001 C CNN
+F 4 "Tayda" H 3300 4600 50  0001 C CNN "Vendor"
+F 5 "A-1121" H 3300 4600 50  0001 C CNN "SKU"
+	1    3300 4600
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

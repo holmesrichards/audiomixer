@@ -1,8 +1,27 @@
-This is a work in progress; better README to come soon. Meanwhile:
+# Analog Output Audio Mixer
 
-**Untested hardware and software — Do not assume anything works!**
+This is an audio mixer synth module in Kosmo format. It has three inputs, each with a slide attenuator, and a general level control and two identical outputs.
 
-Repo uses submodules aoKicad and Kosmo_panel. To clone:
+## Photos
+
+![](Images/IMG_6735.JPG)
+![](Images/IMG_6744.JPG)
+![](Images/IMG_6747.JPG)
+
+## Documentation:
+
+* [Schematic](Docs/ao_audio_mixer.pdf)
+* [PCB layout](Docs/ao_audio_mixer_layout.pdf)
+* [BOM](Docs/ao_audio_mixer_bom.md)
+* [Build notes](Docs/build.md)
+
+## GitHub repository
+
+* [https://github.com/holmesrichards/audiomixer](
+
+## Submodules
+
+This repo uses submodules aoKicad and Kosmo_panel, which provide needed libaries for KiCad. To clone:
 
 ```
 git clone git@github.com:holmesrichards/audiomixer.git
