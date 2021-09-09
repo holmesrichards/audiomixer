@@ -21,6 +21,7 @@ Generated from schematic by Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1
 | R6, R7 | 2 | 1k | Resistor |  |  |  |  |
 | RV1, RV2, RV3, RV4 | 4 | A100k | Slide pot | Alpha | RA6020F | Tayda | A-4496 |
 | U1 | 1 | TL072 | Dual op amp |  |  | Tayda | A-037 |
+| | 1 | | 8 pin DIP socket | | | Tayda | A-001 |
 | | 4 | | Slide pot shaft caps | | | | |
 | | 4 sets | M3x12 mm | Screws and spacers (see [build notes](Docs/build.md)) | | |  |  |
 
