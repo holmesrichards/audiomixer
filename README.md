@@ -2,6 +2,9 @@
 
 This is an audio mixer synth module in Kosmo format. It has three inputs, each with a slide attenuator, and a general level control and two identical outputs.
 
+## Current draw
+4 mA +12 V, 4 mA -12 V
+
 ## Photos
 
 ![](Images/IMG_6735.JPG)
